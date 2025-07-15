@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-origin:border-box;
+    overflow-x: hidden;
+}
+:root{
+    --main-color: #969696;
+    --second-color: #fff;
+    --icon-color: #8E7754;
+    --h-color: #303030;
+    --p-color: #686868 ;
+}
+.parent{
+    background-image: url(../imges/drew-coffman-1872.jpg);
+    width: 100vw;height:100vh;
+    background-size:cover;
+    background-position: center;
+}
+.item{
+    text-align: right;
+    width:100vw;
+    height: 30px; 
+    display: flex;
+    list-style: none;
+    gap:15px;
+    justify-content :end;
+    position: absolute;
+    right: 20px;
+    padding-top: 20px;
+}
+.item li a{
+    margin: 10px;
+    text-decoration: none;
+    font-size: larger;
+    color: var(--second-color);
+}
+.item1 a:hover {
+    color: var(--icon-color);
+}
+.img-nav{
+    position: absolute;
+    top: 10px;
+    bottom: 50px;
+    left: 100px;
+    width: 200px;
+  
+}
+.content{
+    
+    width: 700px;
+    height: 400px;
+    text-align: center;
+    color: var(--second-color);
+     position: absolute;left: 400px; top: 200px;
+}
+
+.content h1{
+    font-size: 60px;
+    padding: 20px;
+}
+.content p{
+    padding: 10px;
+    font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.button1{
+    text-decoration: none;
+    color: var(--second-color);
+    background-color: var(--icon-color);
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+.button1:hover {
+     background-color:white;
+    color: var(--h-color);
+}
+.button2{
+    text-decoration: none;
+    color: var(--second-color);
+    padding: 15px 25px;
+    margin-top: 20px;
+    border-radius: 10% ;
+    border-radius: 10% ;
+    border: 2px solid;
+    -moz-border-radius: 10% ;
+    -ms-border-radius: 10% ;
+    -o-border-radius: 10% ;
+    -webkit-border-radius: 10% ;
+}
+.button2:hover {
+     background-color:var(--second-color);
+     color:var(--h-color);
+}
+.img-2{
+    position: absolute;
+    margin: 80px;
+    width: 500px;
+}
+.content2{
+    position: absolute;
+    left: 650px;
+    top: 800px; px;
+}
+    .content2 h1{
+        font-size: 30px;
+}
+    .content2 p{
+        font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
