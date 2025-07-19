@@ -1,4 +1,5 @@
 *{
+
     margin: 0;
     padding: 0;
     background-origin:border-box;
@@ -14,107 +15,113 @@
 .parent{
     background-image: url(../imges/drew-coffman-1872.jpg);
     width: 100vw;height:100vh;
-    background-size:cover;
-    background-position: center;
+background-position: center;
+background-size: cover;
 }
-.item{
-    text-align: right;
-    width:100vw;
-    height: 30px; 
+.child{
     display: flex;
-    list-style: none;
-    gap:15px;
-    justify-content :end;
-    position: absolute;
-    right: 20px;
-    padding-top: 20px;
+    align-items: center;
+    gap: 600px;
+    margin-top: 20px;
 }
-.item li a{
+.img-nav{
+    width: 200px;
+    padding-left: 50px;
+}
+
+.item{
+    display:flex;
+    gap:20px;
+    padding:0 50px;
+    justify-content: end;
+}
+.item1 a{
     margin: 10px;
     text-decoration: none;
     font-size: larger;
     color: var(--second-color);
+
 }
+
 .item1 a:hover {
     color: var(--icon-color);
 }
-.img-nav{
-    position: absolute;
-    top: 10px;
-    bottom: 50px;
-    left: 100px;
-    width: 200px;
-  
-}
 .content{
-    
-    width: 700px;
-    height: 400px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    align-content: center;
+    gap: 10px;
+    margin-top: 200px;
     color: var(--second-color);
-     position: absolute;left: 400px; top: 200px;
+    
 }
-
 .content h1{
     font-size: 60px;
     padding: 20px;
 }
 .content p{
+    text-align:center;
     padding: 10px;
     font-size: 20px;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
 }
-
-
+.button{
+    display: flex;
+    gap: 15px;
+}
 .button1{
     text-decoration: none;
     color: var(--second-color);
     background-color: var(--icon-color);
-    padding: 15px;
-    margin-top: 20px;
-    border-radius: 10%;
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    -ms-border-radius: 10%;
-    -o-border-radius: 10%;
+    border-width: 2px;
+    padding: 20px 30px;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
 }
+
 .button1:hover {
      background-color:white;
     color: var(--h-color);
 }
+
 .button2{
     text-decoration: none;
     color: var(--second-color);
-    padding: 15px 25px;
-    margin-top: 20px;
-    border-radius: 10% ;
-    border-radius: 10% ;
-    border: 2px solid;
-    -moz-border-radius: 10% ;
-    -ms-border-radius: 10% ;
-    -o-border-radius: 10% ;
-    -webkit-border-radius: 10% ;
+    padding: 15px 35px ;
+    border-radius: 5% ;
+    border: 4px solid;
+    -moz-border-radius: 5% ;
+    -ms-border-radius: 5% ;
+    -o-border-radius: 5% ;
+    -webkit-border-radius: 5% ;
 }
 .button2:hover {
      background-color:var(--second-color);
      color:var(--h-color);
 }
+.second-part{
+    display: flex;
+    justify-content: center left;
+}
 .img-2{
-    position: absolute;
-    margin: 80px;
     width: 500px;
+   margin: 100px 50px 70px 50px;
 }
 .content2{
-    position: absolute;
-    left: 650px;
-    top: 800px; px;
+    flex-direction: column;
+    margin-top: 90px;
+    gap: 20px;
 }
-    .content2 h1{
+   .content2 h1{
         font-size: 30px;
 }
     .content2 p{
@@ -125,4 +132,11 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+    gap: 10px;
 }
+
+
+
+
+
+
